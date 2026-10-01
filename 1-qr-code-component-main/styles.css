@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.center { /*centre le bloc pour mobile*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh; /*100% de la hauteur du veiwport*/
+}
+
+.fullbody {
+    background-color: white;
+    max-width: 320px;
+    max-height: 499px;
+    padding-inline: 16px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+
+h1 {
+    margin-top: 24px;
+    font-family: "Outfit", serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+img {
+    width: 100%;
+}
+
+.maintxt {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
